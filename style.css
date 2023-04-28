@@ -65,6 +65,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  color:#FF6B00;
 }
 
 #headline-primary {
@@ -105,7 +106,17 @@ body {
 }
 
 .social-icons a {
-  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 590px;
+  left: 0px;
+  top: 92;
+  background: #1c1a19;
 }
 
 .headline-img-box {
