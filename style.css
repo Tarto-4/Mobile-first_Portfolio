@@ -13,6 +13,8 @@
 
 html {
   font-size: 65.5%;
+  display: flex;
+  flex-direction: column;
 }
 
 body {
@@ -41,23 +43,25 @@ body {
 .logo {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700rem;
   font-size: 1.8rem;
   line-height: 2.4rem;
 }
 
 .headline-section {
   display: flex;
+  flex-direction: column;
   background-color: #1c1a19;
-  color: #fff;
+  color: #FFF5E1;
   padding-top: 12rem;
   padding-bottom: 18rem;
   position: relative;
 }
 
 .headline-box {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;
 }
 
 .headline-text-box {
@@ -65,7 +69,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-  color:#FF6B00;
+  color:#FFF5E1;
 }
 
 #headline-primary {
@@ -75,7 +79,7 @@ body {
   font-size: 5.6rem;
   line-height: 6.4rem;
   letter-spacing: 0.037rem;
-  color: #fff5e1;
+  color: #f76300;
 }
 
 .headline-title {
@@ -84,7 +88,7 @@ body {
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 3.2rem;
-  color: #FFF5E1;
+  color:  #fff5e1;;
 }
 
 .headline-description {
@@ -97,26 +101,25 @@ body {
   margin-bottom: 2.4rem;
 }
 
+.icon {
+  display: flex;
+  flex-direction: row;
+}
+
 .social-icons-list {
-  list-style: none;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 2.4rem;
 }
 
-.social-icons a {
+.social-icons {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 120px 24px;
-  gap: 12px;
-  position: absolute;
-  width: 375px;
-  height: 590px;
-  left: 0px;
-  top: 92;
-  background: #1c1a19;
+  align-items: center;
+  padding: 0%;
+  width: 0.05%;
+  height: 0.5%;
+  background: #09f7ff;
 }
 
 .headline-img-box {
