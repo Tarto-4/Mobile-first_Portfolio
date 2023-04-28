@@ -52,7 +52,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #1c1a19;
-  color: #FFF5E1;
+  color: #fff5e1;
   padding-top: 12rem;
   padding-bottom: 18rem;
   position: relative;
@@ -69,7 +69,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-  color:#FFF5E1;
+  color: #fff5e1;
 }
 
 #headline-primary {
@@ -88,7 +88,7 @@ body {
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 3.2rem;
-  color:  #fff5e1;;
+  color: #fff5e1;;
 }
 
 .headline-description {
@@ -97,7 +97,7 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  color:  #FFFFFF;
+  color:  #fff;
   margin-bottom: 2.4rem;
 }
 
